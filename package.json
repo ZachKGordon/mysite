@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ZachKGordon/mysite/issues"
   },
-  "homepage": "https://github.com/ZachKGordon/mysite"
+  "homepage": "https://github.com/ZachKGordon/mysite",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0"
+  }
 }
