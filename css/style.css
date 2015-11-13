@@ -33,8 +33,18 @@ body {
     font-weight: 700;
     font-family: 'Dosis', sans-serif; }
 
-.connect-container :hover {
-  background: pink; }
+.connect-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .connect-container :hover {
+    background: #d3d3d3; }
 
 .connect-style {
   color: white;
@@ -42,7 +52,7 @@ body {
   font-family: 'Dosis', sans-serif; }
 
 .email {
-  font-size: 3.2em;
+  font-size: 2.5em;
   background: gray;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -53,5 +63,20 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 200px;
+  width: 150px;
+  border-radius: 15px; }
+
+.game {
+  font-size: 1.7em;
+  background: gray;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
   border-radius: 15px; }
