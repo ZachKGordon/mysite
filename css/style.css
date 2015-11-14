@@ -34,6 +34,7 @@ body {
     font-family: 'Dosis', sans-serif; }
 
 .connect-container {
+  margin-top: 3em;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -64,11 +65,13 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 150px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-right: 5%; }
 
 .game {
-  font-size: 1.7em;
+  font-size: 2em;
   background: gray;
+  margin-left: 5%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -78,5 +81,7 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
-  border-radius: 15px; }
+  width: 200px;
+  height: 1.5em;
+  border-radius: 15px;
+  cursor: pointer; }

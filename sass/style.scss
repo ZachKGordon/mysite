@@ -33,6 +33,7 @@ body {
 }
 
 .connect-container {
+  margin-top: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,15 +56,20 @@ body {
   justify-content: center;
   width: 150px;
   border-radius: 15px;
+  margin-right: 5%;
+
 }
 .game {
-  font-size: 1.7em;
+  font-size: 2em;
   background: gray;
+  margin-left: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 200px;
+  height: 1.5em;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 
