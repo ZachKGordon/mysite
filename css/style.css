@@ -44,13 +44,16 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-  .connect-container :hover {
-    background: #d3d3d3; }
 
 .connect-style {
   color: white;
   font-weight: 400;
   font-family: 'Dosis', sans-serif; }
+
+.connect-style:hover {
+  background: #d3d3d3;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .email {
   font-size: 2.5em;
@@ -69,7 +72,7 @@ body {
   margin-right: 5%; }
 
 .game {
-  font-size: 2em;
+  font-size: 2.4em;
   background: gray;
   margin-left: 5%;
   display: -webkit-flex;
@@ -81,7 +84,6 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 200px;
-  height: 1.5em;
+  width: 240px;
   border-radius: 15px;
-  cursor: pointer; }
+  height: 1.3em; }

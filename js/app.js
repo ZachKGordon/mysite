@@ -21,12 +21,12 @@
 //   console.log(myArray);
 // })();
 
-$(function(){
+// $(function(){
 
 
-  //Function for 'new item' button.
-  $("#game").click(function(item) {
-    confirm("Want to play the Zach Gordon game?")
-  });
+//   //Function for 'new item' button.
+//   $("#game").click(function(item) {
+//     confirm("Want to play the Zach Gordon game?")
+//   });
 
-});
+// });
