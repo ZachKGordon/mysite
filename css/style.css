@@ -1,2 +1,89 @@
-h1 {
-  color: pink; }
+a {
+  color: inherit;
+  text-decoration: none; }
+
+body {
+  background: url(imgs/big-bush.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+.welcome-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.welcome-style {
+  margin-top: 5%;
+  padding: 2.5%;
+  border-radius: 20px;
+  background: gray;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 2em; }
+  .welcome-style h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 5em;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif; }
+
+.connect-container {
+  margin-top: 3em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.connect-style {
+  color: white;
+  font-weight: 400;
+  font-family: 'Dosis', sans-serif; }
+
+.connect-style:hover {
+  background: #d3d3d3;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.email {
+  font-size: 2.5em;
+  background: gray;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  border-radius: 15px;
+  margin-right: 5%; }
+
+.game {
+  font-size: 2.4em;
+  background: gray;
+  margin-left: 5%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 240px;
+  border-radius: 15px;
+  height: 1.3em; }
