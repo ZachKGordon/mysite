@@ -15,5 +15,10 @@ gulp.src('sass/**/*.scss')
 
 // Gulp watch
 gulp.task('watch', function() {
-  gulp.watch('sass/**/*.scss', ['default']);
+  gulp.watch('sass/**/*.scss', ['default', 'icons']);
+});
+
+gulp.task('icons', function() {
+  return gulp.src('sass/font_icon_files/*')
+  .pipe(gulp.dest('css/font_icon_files'));
 });
