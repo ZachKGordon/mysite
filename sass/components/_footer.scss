@@ -1,0 +1,38 @@
+footer {
+
+  .icons {
+    font-size: 1.5em;
+    color: $primary-light;
+  }
+
+  p {
+    font-size: .7em;
+    padding-bottom: 1em;
+  }
+  @include flex-container(flex,row,nowrap,center,center,center);
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 1em;
+  padding-top: 2em;
+  ul {
+    padding-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  li {
+    padding-left: .5em;
+    padding-right: .5em;
+    display: inline;
+  }
+}
+@media only screen and (min-width: 650px) {
+  footer{
+    p {
+      font-size: 1.5em;
+    }
+    li{
+      font-size: 1.2em;
+    }
+  }
+}
+

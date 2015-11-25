@@ -19,6 +19,6 @@ gulp.task('watch', function() {
 });
 
 gulp.task('icons', function() {
-  return gulp.src('sass/font_icon_files/*')
-  .pipe(gulp.dest('css/font_icon_files'));
+  return gulp.src('sass/files/*')
+  .pipe(gulp.dest('css/files'));
 });
