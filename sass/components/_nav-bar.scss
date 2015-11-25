@@ -1,8 +1,7 @@
 // Mobile View
 
 .mobile-menu {
-  background:  $contrast-dark;
-  padding-left: 1%;
+  background:  $primary-light;
 }
 
 .mobile-menu ul {
@@ -10,12 +9,9 @@
   z-index: 100;
 }
 .mobile-menu li a {
-  font-family: $title;
+  font-family: $modest;
   font-size: 1em;
   color: $contrast-light;
-}
-.menu{
-  background: $contrast-dark;
 }
 .mobile-menu input[type=checkbox] {
   display: none;
@@ -32,32 +28,24 @@
 
 // Desktop View
 @media only screen and (min-width: 568px) {
-  div {
-  background:  $contrast-dark;
-
-    @include flex-container(flex,row,wrap,space-around,center,center);
-  }
   .mobile-menu ul {
+  @include flex-container(flex,row,nowrap,space-around,center,center);
     padding-top: 1%;
     padding-bottom: 0.5%;
-    display: inline-block;
+    // display: inline-block;
     width: 100%;
     left: 0;
-  }
-  .menu {
-    // position: fixed;
   }
   .icon-menu {
     display: none;
   }
-  .mobile-menu ul {
+  .mobile-menu {
 
   }
   .mobile-menu li {
     display: inline-block;
   }
   .mobile-menu li a {
-    padding: 5px 50px 5px 50px;
     font-size: 1.5em;
   }
   .mobile-menu li:hover {

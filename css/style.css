@@ -76,20 +76,16 @@ table {
   border-spacing: 0; }
 
 .mobile-menu {
-  background: #3d3f3f;
-  padding-left: 1%; }
+  background: #047878; }
 
 .mobile-menu ul {
   display: none;
   z-index: 100; }
 
 .mobile-menu li a {
-  font-family: "Arvo", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
-  color: #fff; }
-
-.menu {
-  background: #3d3f3f; }
+  color: #e4e5e5; }
 
 .mobile-menu input[type=checkbox] {
   display: none; }
@@ -99,21 +95,20 @@ table {
 
 .icon-menu {
   font-size: 1em;
-  color: #fff;
+  color: #e4e5e5;
   display: inline-block; }
 
 @media only screen and (min-width: 568px) {
-  div {
-    background: #3d3f3f;
+  .mobile-menu ul {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
@@ -122,11 +117,9 @@ table {
             align-content: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center; }
-  .mobile-menu ul {
+            align-items: center;
     padding-top: 1%;
     padding-bottom: 0.5%;
-    display: inline-block;
     width: 100%;
     left: 0; }
   .icon-menu {
@@ -134,5 +127,7 @@ table {
   .mobile-menu li {
     display: inline-block; }
   .mobile-menu li a {
-    padding: 5px 50px 5px 50px;
     font-size: 1.5em; } }
+
+body {
+  background: #e4e5e5; }
