@@ -1,16 +1,27 @@
 .about {
   h1 {
     font-family: $fancy;
-    padding-right: 5%;
     font-size: 5em;
   }
   p{
     font-family: $basic-soft;
-    padding-left: 5%;
     font-size: 2em;
   }
-  div{
+}
+.about-text{
   @include flex-container(flex,row,wrap,center,center,center);
-  padding: 5em 20% 7em 20%;
+}
+  div.about-img {
+    width: 440px;
+    height: 411px;
+    overflow: hidden;
+    border-radius: 50%;
   }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+.about-container {
+  @include flex-container(flex,row,nowrap,center,center,center);
+
 }
