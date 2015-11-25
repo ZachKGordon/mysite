@@ -29,10 +29,9 @@
 // Desktop View
 @media only screen and (min-width: 568px) {
   .mobile-menu ul {
-  @include flex-container(flex,row,nowrap,space-around,center,center);
+    @include flex-container(flex,row,nowrap,flex-end,center,center);
     padding-top: 1%;
     padding-bottom: 0.5%;
-    // display: inline-block;
     width: 100%;
     left: 0;
   }
@@ -44,6 +43,7 @@
   }
   .mobile-menu li {
     display: inline-block;
+    padding-right: 4%;
   }
   .mobile-menu li a {
     font-size: 1.5em;
