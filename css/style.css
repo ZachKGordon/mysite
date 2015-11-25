@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("files/icomoon.eot?plegy0");
-  src: url("files/icomoon.eot?plegy0#iefix") format("embedded-opentype"), url("files/icomoon.ttf?plegy0") format("truetype"), url("files/icomoon.woff?plegy0") format("woff"), url("files/icomoon.svg?plegy0#icomoon") format("svg");
+  src: url("files/icomoon.eot?t6hmdy");
+  src: url("files/icomoon.eot?t6hmdy#iefix") format("embedded-opentype"), url("files/icomoon.ttf?t6hmdy") format("truetype"), url("files/icomoon.woff?t6hmdy") format("woff"), url("files/icomoon.svg?t6hmdy#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -18,19 +18,22 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-menu:before {
-  content: "\e805"; }
+  content: "\e900"; }
 
-.icon-facebook2:before {
-  content: "\e800"; }
+.icon-mail4:before {
+  content: "\e901"; }
 
-.icon-twitter:before {
-  content: "\e801"; }
+.icon-twitter3:before {
+  content: "\e902"; }
 
-.icon-github:before {
-  content: "\e802"; }
+.icon-vimeo:before {
+  content: "\e903"; }
 
-.icon-pinterest2:before {
-  content: "\e803"; }
+.icon-github4:before {
+  content: "\e904"; }
+
+.icon-linkedin:before {
+  content: "\e905"; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -76,7 +79,9 @@ table {
   border-spacing: 0; }
 
 .mobile-menu {
-  background: #047878; }
+  background: #047878;
+  padding-top: 0.2em;
+  padding-bottom: 0.3em; }
 
 .mobile-menu ul {
   display: none;
@@ -84,7 +89,7 @@ table {
 
 .mobile-menu li a {
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   color: #e4e5e5; }
 
 .mobile-menu input[type=checkbox] {
@@ -94,7 +99,7 @@ table {
   display: block; }
 
 .icon-menu {
-  font-size: 1em;
+  font-size: 2em;
   color: #e4e5e5;
   display: inline-block; }
 
@@ -156,6 +161,9 @@ footer {
   color: black;
   font-size: 1em;
   padding-top: 2em; }
+  footer .icons {
+    font-size: 1.5em;
+    color: #047878; }
   footer p {
     font-size: .7em;
     padding-bottom: 1em; }
@@ -173,7 +181,7 @@ footer {
   footer p {
     font-size: 1.5em; }
   footer li {
-    font-size: 1.5em; } }
+    font-size: 1.2em; } }
 
 .rotate-icon {
   -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -183,7 +191,7 @@ footer {
 .home {
   position: fixed;
   right: 2%;
-  bottom: 0px;
+  top: 0px;
   font-size: 50px; }
   .home a {
     color: #047878; }

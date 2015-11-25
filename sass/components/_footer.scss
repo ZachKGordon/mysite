@@ -1,4 +1,10 @@
 footer {
+
+  .icons {
+    font-size: 1.5em;
+    color: $primary-light;
+  }
+
   p {
     font-size: .7em;
     padding-bottom: 1em;
@@ -26,7 +32,7 @@ footer {
       font-size: 1.5em;
     }
     li{
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
   }
 }
@@ -38,7 +44,7 @@ footer {
 .home {
   position:fixed;
   right: 2%;
-  bottom:0px;
+  top:0px;
   font-size: 50px;
   a {color: $primary-light;
   }

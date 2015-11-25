@@ -34,7 +34,7 @@ $(function(){
 
       $('html, body').stop().animate({
           'scrollTop': $spot.offset().top
-      }, 700, function () {
+      }, 600, function () {
           window.location.hash = spot;
       });
   });

@@ -2,6 +2,8 @@
 
 .mobile-menu {
   background:  $primary-light;
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
 }
 
 .mobile-menu ul {
@@ -10,7 +12,7 @@
 }
 .mobile-menu li a {
   font-family: $modest;
-  font-size: 1em;
+  font-size: 2em;
   color: $contrast-light;
 }
 .mobile-menu input[type=checkbox] {
@@ -21,7 +23,7 @@
 }
 // Layout
 .icon-menu {
-  font-size: 1em;
+  font-size: 2em;
   color: $contrast-light;
   display: inline-block;
 }
