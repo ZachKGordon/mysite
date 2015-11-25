@@ -1,0 +1,16 @@
+.about {
+  h1 {
+    font-family: $fancy;
+    padding-right: 5%;
+    font-size: 5em;
+  }
+  p{
+    font-family: $basic-soft;
+    padding-left: 5%;
+    font-size: 2em;
+  }
+  div{
+  @include flex-container(flex,row,wrap,center,center,center);
+  padding: 5em 20% 7em 20%;
+  }
+}

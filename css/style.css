@@ -98,6 +98,24 @@ table {
 .mobile-menu input[type=checkbox]:checked ~ .menu {
   display: block; }
 
+.rotate-icon {
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  -transition: -transform 0.4s ease-out; }
+
+.home {
+  position: fixed;
+  right: 2%;
+  top: 0px;
+  font-size: 50px; }
+  .home a {
+    color: #047878; }
+
+.rotate-home:hover .rotate-icon {
+  -webkit-transform: rotate(360deg);
+  -moz-tansform: rotate(360deg);
+  -transform: rotate(360deg); }
+
 .icon-menu {
   font-size: 2em;
   color: #e4e5e5;
@@ -131,12 +149,43 @@ table {
     display: none; }
   .mobile-menu li {
     display: inline-block;
-    padding-right: 4%; }
+    padding-right: 4.5%; }
   .mobile-menu li a {
     font-size: 1.5em; } }
 
 body {
   background: #e4e5e5; }
+
+.about h1 {
+  font-family: "Lobster", cursive;
+  padding-right: 5%;
+  font-size: 5em; }
+
+.about p {
+  font-family: "Dosis", sans-serif;
+  padding-left: 5%;
+  font-size: 2em; }
+
+.about div {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5em 20% 7em 20%; }
 
 footer {
   display: -webkit-flex;
@@ -168,7 +217,6 @@ footer {
     font-size: .7em;
     padding-bottom: 1em; }
   footer ul {
-    padding-left: 5%;
     padding-bottom: 1em;
     text-align: center;
     text-transform: uppercase; }
@@ -182,21 +230,3 @@ footer {
     font-size: 1.5em; }
   footer li {
     font-size: 1.2em; } }
-
-.rotate-icon {
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  -moz-transition: -moz-transform 0.4s ease-out;
-  -transition: -transform 0.4s ease-out; }
-
-.home {
-  position: fixed;
-  right: 2%;
-  top: 0px;
-  font-size: 50px; }
-  .home a {
-    color: #047878; }
-
-.rotate-home:hover .rotate-icon {
-  -webkit-transform: rotate(360deg);
-  -moz-tansform: rotate(360deg);
-  -transform: rotate(360deg); }
