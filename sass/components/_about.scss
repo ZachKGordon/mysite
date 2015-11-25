@@ -1,16 +1,59 @@
+// Mobile View
 .about {
   h1 {
+    padding: 2.5%;
     font-family: $fancy;
-    padding-right: 5%;
     font-size: 5em;
   }
   p{
+    padding: 2.5%;
     font-family: $basic-soft;
-    padding-left: 5%;
     font-size: 2em;
   }
-  div{
-  @include flex-container(flex,row,wrap,center,center,center);
-  padding: 5em 20% 7em 20%;
+}
+.about-img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  img {
+    max-width: 110%;
+    max-height: 110%;
+    }
+  }
+.about-img_container {
+  padding: 4%;
+
+}
+.about_container {
+  @include flex-container(flex,column,wrap,center,center,center);
+}
+.about-text_container{
+  @include flex-container(flex,column,wrap,center,center,center);
+}
+
+// Desktop View
+@media only screen and (min-width: 650px) {
+  .about{
+    h1{
+      padding: 0;
+    }
+  }
+  .about-text_container{
+  }
+  .about-img {
+    width: 375px;
+    height: 375px;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+      max-width: 110%;
+      max-height: 110%;
+    }
+  }
+  .about_container {
+    padding-left: 10%;
+    padding-right: 10%;
+    @include flex-container(flex,row,nowrap,center,center,center);
   }
 }
