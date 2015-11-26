@@ -1,16 +1,4 @@
 // Mobile View
-.about {
-  h1 {
-    padding: 2.5%;
-    font-family: $fancy;
-    font-size: 5em;
-  }
-  p{
-    padding: 2.5%;
-    font-family: $basic-soft;
-    font-size: 2em;
-  }
-}
 .about-img {
   width: 200px;
   height: 200px;
@@ -21,9 +9,27 @@
     max-height: 110%;
     }
   }
+.about {
+  h1 {
+    padding: 2.5%;
+    font-family: $fancy;
+    font-size: 5em;
+    color: $contrast-dark;
+  }
+  p{
+    padding: 2.5%;
+    font-family: $basic-soft;
+    font-size: 2em;
+    color: $contrast-dark;
+  }
+}
+.splash {
+  font-family: $statement;
+  font-size: 1.3em;
+  text-shadow: 2px 2px $lightest;
+}
 .about-img_container {
   padding: 4%;
-
 }
 .about_container {
   @include flex-container(flex,column,wrap,center,center,center);

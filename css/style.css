@@ -156,16 +156,6 @@ table {
 body {
   background: #e4e5e5; }
 
-.about h1 {
-  padding: 2.5%;
-  font-family: "Grand Hotel", cursive;
-  font-size: 5em; }
-
-.about p {
-  padding: 2.5%;
-  font-family: "Dosis", sans-serif;
-  font-size: 2em; }
-
 .about-img {
   width: 200px;
   height: 200px;
@@ -174,6 +164,23 @@ body {
   .about-img img {
     max-width: 110%;
     max-height: 110%; }
+
+.about h1 {
+  padding: 2.5%;
+  font-family: "Grand Hotel", cursive;
+  font-size: 5em;
+  color: #3d3f3f; }
+
+.about p {
+  padding: 2.5%;
+  font-family: "Dosis", sans-serif;
+  font-size: 2em;
+  color: #3d3f3f; }
+
+.splash {
+  font-family: "Arvo", serif;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #f8f8f8; }
 
 .about-img_container {
   padding: 4%; }
