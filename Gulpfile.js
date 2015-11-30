@@ -4,21 +4,21 @@ var autoprefixer = require('gulp-autoprefixer')
 
 // Gulp task
 gulp.task('default', function() {
-gulp.src('sass/**/*.scss')
+gulp.src('src/sass/**/*.scss')
   .pipe(sass().on('error', sass.logError))
   .pipe(autoprefixer({
     browsers: ['last 2 versions'],
     ascade: false
   }))
-  .pipe(gulp.dest('./css/'));
+  .pipe(gulp.dest('./public/'));
 });
 
 // Gulp watch
 gulp.task('watch', function() {
-  gulp.watch('sass/**/*.scss', ['default', 'icons']);
+  gulp.watch('src/sass/**/*.scss', ['default', 'icons']);
 });
 
 gulp.task('icons', function() {
-  return gulp.src('sass/files/*')
-  .pipe(gulp.dest('css/files'));
+  return gulp.src('src/sass/files/*')
+  .pipe(gulp.dest('public/files'));
 });
