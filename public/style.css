@@ -301,3 +301,21 @@ footer {
     font-size: 1.5em; }
   footer li {
     font-size: 1.2em; } }
+
+.bio h1 {
+  background: #fbf180;
+  padding: 2.5%;
+  padding-left: 15%;
+  margin: 10%;
+  font-family: "Arvo", serif;
+  font-size: 5em;
+  color: #3d3f3f; }
+
+.bio p {
+  margin: 10%;
+  background: #fbf180;
+  text-indent: 5%;
+  padding: 2.5%;
+  font-family: "Dosis", sans-serif;
+  font-size: 2em;
+  color: #3d3f3f; }
