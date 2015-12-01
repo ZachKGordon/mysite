@@ -1,24 +1,33 @@
 .bio {
-    h1 {
-    background: $second;
+  // padding-top: 1%;
+  padding-bottom: 5%;
+  background: $contrast-dark;
+  h1 {
+    background: $contrast-light;
     padding: 2.5%;
     padding-left: 15%;
-    margin: 10%;
     font-family: $statement;
     font-size: 5em;
-    color: $contrast-dark;
+    color: $darkest;
+    border-top: 5px solid $primary-light;
   }
   p {
-    margin: 10%;
-
-    background: $second;
+    padding-top: 2%;
+    padding-bottom: 1%;
     text-indent: 5%;
-    padding: 2.5%;
-    font-family: $basic-soft;
-    font-size: 2em;
-    color: $contrast-dark;
+    font-family: $modest;
+    font-size: 1.5em;
+    color: $contrast-light;
   }
-  .parah-one {
-
+  .bio-body_container {
+    padding-left: 15%;
+    padding-right: 15%;
+    p:first-child {
+      padding-right: 40%;
+    }
+    p:nth-child(2) {
+      padding-left: 30%;
+    }
+    @include flex-container(flex,column,nowrap,center,center,center);
   }
 }
