@@ -1,5 +1,31 @@
 .portfolio-img{
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 15px;
+  max-width: 300px;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+.portfolio-img_grid {
+  @include flex-container(flex,row,wrap,space-around,flex-start,center);
+}
+.display-link {
+    // z-index: -10;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 11.5%;
+    font-family: $modest;
+    a{
+      color: $darkest;
+      font-size: 1.5em;
+    }
+  }
+ // img:hover{
+ //      opacity: 0.3;
+ //    }
+
+@media only screen and (min-width: 650px) {
+  .portfolio-img{
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 3em;
+  }
+
 }

@@ -203,7 +203,8 @@ body {
           align-content: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding-bottom: 5em; }
 
 .about-text_container {
   display: -webkit-flex;
@@ -310,7 +311,7 @@ footer {
     padding-left: 15%;
     font-family: "Arvo", serif;
     font-size: 5em;
-    color: #030303;
+    color: #000000;
     border-top: 2px solid #3d3f3f; }
   .bio p {
     padding-top: 2%;
@@ -346,6 +347,41 @@ footer {
       padding-left: 30%; }
 
 .portfolio-img {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 15px; }
+  max-width: 300px;
+  border-radius: 5px;
+  margin-bottom: 2em; }
+
+.portfolio-img_grid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.display-link {
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 11.5%;
+  font-family: "Raleway", sans-serif; }
+  .display-link a {
+    color: #000000;
+    font-size: 1.5em; }
+
+@media only screen and (min-width: 650px) {
+  .portfolio-img {
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 3em; } }

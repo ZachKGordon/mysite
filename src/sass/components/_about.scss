@@ -33,6 +33,7 @@
 }
 .about_container {
   @include flex-container(flex,column,wrap,center,center,center);
+  padding-bottom: 5em;
 }
 .about-text_container{
   @include flex-container(flex,column,wrap,center,center,center);
