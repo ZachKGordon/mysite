@@ -228,7 +228,11 @@ body {
 
 @media only screen and (min-width: 650px) {
   .about h1 {
-    padding: 0; }
+    font-size: 8em;
+    padding: 5%;
+    padding-top: 10%; }
+  .about p {
+    font-size: 3em; }
   .about-img {
     width: 375px;
     height: 375px;
@@ -346,6 +350,14 @@ footer {
     .bio .bio-body_container p:nth-child(2) {
       padding-left: 30%; }
 
+.portfolio h1 {
+  padding: 2.5%;
+  padding-left: 15%;
+  font-family: "Arvo", serif;
+  font-size: 5em;
+  color: #000000;
+  border-top: 2px solid #3d3f3f; }
+
 .portfolio-img {
   max-width: 300px;
   border-radius: 5px;
@@ -370,6 +382,8 @@ footer {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  .portfolio-img_grid img:hover {
+    opacity: 0.3; }
 
 .display-link {
   z-index: -10;
@@ -380,9 +394,6 @@ footer {
   .display-link p {
     color: #000000;
     font-size: 2.5em; }
-
-img:hover {
-  opacity: 0.3; }
 
 @media only screen and (min-width: 650px) {
   .portfolio-img {
