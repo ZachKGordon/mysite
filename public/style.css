@@ -372,13 +372,17 @@ footer {
           align-items: center; }
 
 .display-link {
+  z-index: -10;
   position: absolute;
   margin-top: 6%;
-  margin-left: 11.5%;
-  font-family: "Raleway", sans-serif; }
-  .display-link a {
+  margin-left: 7%;
+  font-family: "Arvo", serif; }
+  .display-link p {
     color: #000000;
-    font-size: 1.5em; }
+    font-size: 2.5em; }
+
+img:hover {
+  opacity: 0.3; }
 
 @media only screen and (min-width: 650px) {
   .portfolio-img {
