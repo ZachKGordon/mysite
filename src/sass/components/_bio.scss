@@ -1,15 +1,14 @@
 .bio {
-  // padding-top: 1%;
+  padding-top: 1%;
   padding-bottom: 5%;
-  background: $contrast-dark;
   h1 {
-    background: $contrast-light;
+    // background: $contrast-light;
     padding: 2.5%;
     padding-left: 15%;
     font-family: $statement;
     font-size: 5em;
     color: $darkest;
-    border-top: 5px solid $primary-light;
+    border-top: 2px solid $contrast-dark;
   }
   p {
     padding-top: 2%;
@@ -17,7 +16,7 @@
     text-indent: 5%;
     font-family: $modest;
     font-size: 1.5em;
-    color: $contrast-light;
+    color: $contrast-dark;
   }
   .bio-body_container {
     padding-left: 15%;

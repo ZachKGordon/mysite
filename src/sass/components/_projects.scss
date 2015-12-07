@@ -1,0 +1,49 @@
+.projects{
+  h1 {
+    padding: 4.5%;
+    font-family: $basic-hard;
+    font-size: 2em;
+    color: $darkest;
+    @include flex-container(flex,column,wrap,center,center,center);
+  }
+  div {
+    @include flex-container(flex,column,wrap,center,center,center);
+  }
+  .portfolio-img_learn-more{
+    max-width: 350px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+  }
+}
+  .project-body{
+    padding-left: 10%;
+    padding-right: 10%;
+    @include flex-container(flex,row,wrap,center,center,center);
+    p {
+      font-family: $basic-soft;
+      font-size: 1.5em;
+      color: $contrast-dark;
+    }
+  }
+
+@media only screen and (min-width: 650px) {
+  .projects{
+    h1 {
+      font-size: 4em;
+    }
+    .portfolio-img_learn-more{
+      max-width: 700px;
+    }
+  }
+  .project-body{
+    padding-left: 5%;
+    padding-right: 5%;
+    @include flex-container(flex,row,nowrap,center,center,center);
+    p {
+      padding: 2.5%;
+      font-family: $basic-soft;
+      font-size: 1.9em;
+      color: $contrast-dark;
+    }
+  }
+}
