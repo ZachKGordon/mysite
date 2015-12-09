@@ -1,0 +1,48 @@
+.video {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  h1 {
+    // background: $contrast-light;
+    padding: 2.5%;
+    padding-left: 15%;
+    font-family: $statement;
+    font-size: 2.5em;
+    color: $darkest;
+    border-top: 2px solid $primary-light;
+  }
+  .video-container{
+    display: none;
+  }
+  .video-link {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: $statement;
+    font-size: 1.8em;
+    color: $darkest;
+    text-decoration: underline;
+    }
+  p {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: $modest;
+    font-size: 1.5em;
+    color: $contrast-dark;
+  }
+  .video-body_container {
+    padding-left: 15%;
+    padding-right: 15%;
+    @include flex-container(flex,column,nowrap,center,center,center);
+  }
+ @media only screen and (min-width: 650px) {
+    .video-container {
+      @include flex-container(flex,column,nowrap,center,center,center);
+    }
+    .video-link {
+      display: none;
+    }
+    h1 {
+      font-size: 5em;
+    }
+  }
+}
+

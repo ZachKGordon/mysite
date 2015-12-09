@@ -54,13 +54,13 @@
   .about-text_container{
   }
   .about-img {
-    width: 475px;
-    height: 475px;
+    width: 575px;
+    height: 575px;
     overflow: hidden;
-    // border-radius: 50%;
+    border-radius: 50%;
     img {
-      max-width: 110%;
-      max-height: 110%;
+      max-width: 115%;
+      max-height: 115%;
     }
   }
   .about_container {

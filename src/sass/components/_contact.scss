@@ -1,4 +1,4 @@
-.bio {
+.contact {
   padding-top: 1%;
   padding-bottom: 5%;
   h1 {
@@ -13,22 +13,22 @@
   p {
     padding-top: 2%;
     padding-bottom: 1%;
-    text-indent: 5%;
     font-family: $modest;
-    font-size: 1em;
+    font-size: 2em;
     color: $contrast-dark;
   }
-  .bio-body_container {
-    padding-left: 15%;
-    padding-right: 15%;
+  span {
+    color: $darkest;
+  }
+  .contact-body_container {
     @include flex-container(flex,column,nowrap,center,center,center);
   }
   @media only screen and (min-width: 650px) {
-    p {
-      font-size: 1.5em;
-    }
     h1 {
       font-size: 5em;
+    }
+    p {
+      font-size: 3em;
     }
   }
 }
