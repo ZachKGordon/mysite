@@ -161,7 +161,7 @@ body {
   color: #3d3f3f; }
 
 .about-p {
-  padding: 2.5%;
+  padding: 0.5%;
   font-family: "Dosis", sans-serif;
   font-size: 2em;
   color: #3d3f3f; }
@@ -179,9 +179,9 @@ body {
   -webkit-flex-direction: rows;
       -ms-flex-direction: rows;
           flex-direction: rows;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -196,9 +196,8 @@ img {
   border-radius: 50%; }
 
 .about-text_container {
-  padding-left: 5%; }
-  .about-text_container h1 {
-    text-align: center; }
+  padding-left: 1%;
+  text-align: center; }
 
 footer {
   display: -webkit-flex;

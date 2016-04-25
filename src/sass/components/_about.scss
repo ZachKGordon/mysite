@@ -6,7 +6,7 @@
   color: $contrast-dark;
   }
 .about-p {
-  padding: 2.5%;
+  padding: 0.5%;
   font-family: $basic-soft;
   font-size: 2em;
   color: $contrast-dark;
@@ -18,17 +18,14 @@
 }
 .about_container{
   padding: 5%;
-  @include flex-container(flex,rows,nowrap,center,center,center);
+  @include flex-container(flex,rows,wrap,center,center,center);
 }
 
 img {
   border-radius: 50%;
 }
 .about-text_container{
-  padding-left: 5%;
-  h1 {
-    text-align: center;
-  }
+  padding-left: 1%;
+  text-align: center;
 }
-
 
