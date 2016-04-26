@@ -196,6 +196,7 @@ img {
   border-radius: 50%; }
 
 .about-text_container {
+  width: 50%;
   padding-left: 1%;
   text-align: center; }
 
