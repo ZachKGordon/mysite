@@ -21,12 +21,31 @@
   @include flex-container(flex,rows,wrap,center,center,center);
 }
 
-img {
+.me {
   border-radius: 50%;
 }
 .about-text_container{
   width:50%;
   padding-left: 1%;
   text-align: center;
+}
+
+@media only screen and (max-width: 568px) {
+  .me {
+    width: 200px;
+    width: 200px;
+  }
+  .about-text_container{
+  width:75%;
+  }
+  .about-h1 {
+    font-size: 3em;
+  }
+  .about-p {
+    font-size: 1.5em;
+  }
+  .splash {
+    font-size: 1.0em;
+  }
 }
 
