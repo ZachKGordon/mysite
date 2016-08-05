@@ -273,8 +273,7 @@ footer {
   .video .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    /* 16:9 */
-    padding-top: 0; }
+    /* 16:9 */ }
   .video .video-container iframe {
     position: absolute;
     top: 0;
