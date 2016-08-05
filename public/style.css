@@ -268,7 +268,8 @@ footer {
     color: #000000;
     border-top: 2px solid #047878; }
   .video .video-wrapper {
-    width: 50%; }
+    margin-left: 25%;
+    margin-right: 25%; }
   .video .video-container {
     position: relative;
     padding-bottom: 56.25%;

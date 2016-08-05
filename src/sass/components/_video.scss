@@ -11,8 +11,8 @@
     border-top: 2px solid $primary-light;
   }
   .video-wrapper {
-    width: 50%;
-    // @include flex-container(flex,column,nowrap,center,center,center);
+    margin-left: 25%;
+    margin-right: 25%;
   }
   .video-container {
     position: relative;
